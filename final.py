@@ -114,3 +114,5 @@ def update_graph(first_y_axis):
 
 if __name__ == '__main__':
     app.run_server("0.0.0.0", debug=False, port=int(os.environ.get('PORT', 8000)))
+
+server = app.server
